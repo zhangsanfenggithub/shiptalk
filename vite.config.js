@@ -6,9 +6,6 @@ const pathResolve = (pathname) => resolve(root, ".", pathname);
 export default defineConfig({
     base: "/shiptalk/",
     plugins: [vue()],
-    server: {
-        allowedHosts: ["fwk3216.yunmv.cn", "localhost", "127.0.0.1"],
-    },
     resolve: {
         alias: {
             "/@/": pathResolve("src") + "/",

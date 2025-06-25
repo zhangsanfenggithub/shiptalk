@@ -9,9 +9,9 @@ export default defineConfig({
   base: "/shiptalk/",
   plugins: [vue()],
   // 添加允许访问的主机配置
-  server: {
-    allowedHosts: ["fwk3216.yunmv.cn", "localhost", "127.0.0.1"],
-  },
+  // server: {
+  //   allowedHosts: ["fwk3216.yunmv.cn", "localhost", "127.0.0.1"],
+  // },
   resolve: {
     alias: {
       "/@/": pathResolve("src") + "/",
